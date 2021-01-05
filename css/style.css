@@ -52,6 +52,11 @@ pre {
   padding: 10px;
 }
 
+.hidden {
+  visibility: hidden;
+  height: 0;
+}
+
 /* Navbar */
 
 .navbar {
@@ -76,11 +81,6 @@ pre {
 
 .navbar .flex {
   justify-content: space-between;
-}
-
-.hidden {
-  visibility: hidden;
-  height: 0;
 }
 
 /* Showcase */
@@ -111,8 +111,8 @@ pre {
 
 .showcase-form {
   position: relative;
-  top: 50px;
-  height: 330px;
+  top: 60px;
+  height: 370px;
   width: 400px;
   padding: 40px;
   z-index: 100;
